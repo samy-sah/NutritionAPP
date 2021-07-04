@@ -1,0 +1,32 @@
+{
+  "cwd": "C:\\Dev\\Projecten\\WM\\f7Cordova2021",
+  "type": [
+    "cordova"
+  ],
+  "name": "F7Cordova2021",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": false,
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#82d226",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "pkg": "be.samysah.f7cordova2021",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-inappbrowser"
+    ]
+  }
+}
